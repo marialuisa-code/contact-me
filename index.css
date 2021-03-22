@@ -1,12 +1,5 @@
 
 
-h1{
-	font-family:"Times New Roman", serif;
-}
-	
-
-/*navigation*/
-
 nav ul{	
 	list-style:none;
 	padding:0;
@@ -40,31 +33,21 @@ nav a :focus{
 	color:solid black;
 }
 
+/*page 3*/
 
-
-/* 1ST page  */
-h1{
-	color:black;
-}
-
-body {
-	margin:0;
+body{
 	text-align: center;
-	
 }
 
-/*   */
-table{
-	border-style: double;
-	
+@Keyframes mymove {
+	from{background-color:lightblue;}
+	to{background-color: pink;}
 }
 
-table, th, td {
-   border: 1px solid black;
-   
+.mymove{
+    animation:mymove 10s infinite;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
+p{
+	animation:mymove 10s infinite;
 }
